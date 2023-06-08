@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <RelativeLayout
+       android:padding="16dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <ImageView
+           android:id="@+id/iv_icon"
+           android:layout_width="92dp"
+           android:layout_height="70dp"
+           android:layout_alignParentTop="true"
+           android:layout_marginTop="7dp"
+           android:layout_marginRight="20dp"
+           android:contentDescription="@string/habit_icon" />
+
+       <TextView
+           android:id="@+id/iv_title"
+           android:layout_width="274dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentEnd="true"
+           android:layout_marginStart="39dp"
+           android:layout_marginTop="8dp"
+           android:layout_marginEnd="0dp"
+           android:layout_toEndOf="@+id/iv_icon" />
+
+       <TextView
+           android:id="@+id/iv_description"
+           android:layout_width="255dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/iv_title"
+           android:layout_marginStart="43dp"
+           android:layout_marginTop="18dp"
+           android:layout_toEndOf="@+id/iv_icon" />
+   </RelativeLayout>
+</androidx.cardview.widget.CardView >
